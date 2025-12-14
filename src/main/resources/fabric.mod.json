@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "travelingtrading",
+	"version": "${version}",
+	"name": "Traveling Trading",
+	"description": "Mod by QuickTurn to add a good Trading System to Minecraft ",
+	"authors": [
+		"QuickTurn"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/travelingtrading/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.quickturn.travelingtrading.TravelingTrading"
+		],
+		"fabric-datagen": [
+			"net.quickturn.travelingtrading.TravelingTradingDataGenerator"
+		],
+		"Client": [
+			"net.quickturn.travelingtrading.TravelingTradingClient"
+		]
+	},
+	"mixins": [
+		"travelingtrading.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
