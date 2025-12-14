@@ -2,6 +2,7 @@ package net.quickturn.travelingtrading;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.quickturn.travelingtrading.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +12,8 @@ public class TravelingTrading implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
+
 
 	}
 }
