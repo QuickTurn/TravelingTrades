@@ -1,4 +1,6 @@
 {
   "item.travelingtrading.wooden_wheel": "Wooden Wheel",
-  "item.travelingtrading.cart_base": "Cart Base"
+  "item.travelingtrading.cart_base": "Cart Base",
+
+  "itemgroup.travelingtrading.traveling_trading_items": "Traveling Trading Items"
 }
